@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F42B2BBB287ED40200776096 /* ProRecorderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BBA287ED40200776096 /* ProRecorderApp.swift */; };
-		F42B2BBD287ED40200776096 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BBC287ED40200776096 /* ContentView.swift */; };
+		F42B2BBD287ED40200776096 /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BBC287ED40200776096 /* ProjectsView.swift */; };
 		F42B2BBF287ED40300776096 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42B2BBE287ED40300776096 /* Assets.xcassets */; };
 		F42B2BC2287ED40300776096 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42B2BC1287ED40300776096 /* Preview Assets.xcassets */; };
 		F42B2BC4287ED40300776096 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BC3287ED40300776096 /* Persistence.swift */; };
@@ -16,6 +16,11 @@
 		F42B2BD1287ED40400776096 /* ProRecorderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BD0287ED40400776096 /* ProRecorderTests.swift */; };
 		F42B2BDB287ED40400776096 /* ProRecorderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BDA287ED40400776096 /* ProRecorderUITests.swift */; };
 		F42B2BDD287ED40400776096 /* ProRecorderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BDC287ED40400776096 /* ProRecorderUITestsLaunchTests.swift */; };
+		F42B2BEC287ED5C700776096 /* ProjectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BEB287ED5C700776096 /* ProjectViewModel.swift */; };
+		F42B2BF0287EEDD200776096 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BEF287EEDD200776096 /* CalendarView.swift */; };
+		F42B2BF2287EEDE400776096 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BF1287EEDE400776096 /* StatisticsView.swift */; };
+		F42B2BF4287F083800776096 /* TimerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42B2BF3287F083800776096 /* TimerManager.swift */; };
+		F43BCC5428842755007FB99B /* VCEventKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F43BCC5328842755007FB99B /* VCEventKit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,9 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F402D5D82884BF5F00EB1C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		F42B2BB7287ED40200776096 /* ProRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42B2BBA287ED40200776096 /* ProRecorderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProRecorderApp.swift; sourceTree = "<group>"; };
-		F42B2BBC287ED40200776096 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F42B2BBC287ED40200776096 /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
 		F42B2BBE287ED40300776096 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F42B2BC1287ED40300776096 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F42B2BC3287ED40300776096 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +54,11 @@
 		F42B2BD6287ED40400776096 /* ProRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42B2BDA287ED40400776096 /* ProRecorderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProRecorderUITests.swift; sourceTree = "<group>"; };
 		F42B2BDC287ED40400776096 /* ProRecorderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProRecorderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F42B2BEB287ED5C700776096 /* ProjectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectViewModel.swift; sourceTree = "<group>"; };
+		F42B2BEF287EEDD200776096 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		F42B2BF1287EEDE400776096 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		F42B2BF3287F083800776096 /* TimerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerManager.swift; sourceTree = "<group>"; };
+		F43BCC5328842755007FB99B /* VCEventKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCEventKit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +109,13 @@
 		F42B2BB9287ED40200776096 /* ProRecorder */ = {
 			isa = PBXGroup;
 			children = (
+				F402D5D82884BF5F00EB1C8C /* Info.plist */,
 				F42B2BBA287ED40200776096 /* ProRecorderApp.swift */,
-				F42B2BBC287ED40200776096 /* ContentView.swift */,
+				F42B2BEE287EECF300776096 /* CoreData */,
+				F42B2BED287EECDD00776096 /* Models */,
+				F42B2BEA287ED5B100776096 /* ViewModel */,
+				F42B2BE9287ED5A200776096 /* Views */,
 				F42B2BBE287ED40300776096 /* Assets.xcassets */,
-				F42B2BC3287ED40300776096 /* Persistence.swift */,
-				F42B2BC5287ED40400776096 /* ProRecorder.xcdatamodeld */,
 				F42B2BC0287ED40300776096 /* Preview Content */,
 			);
 			path = ProRecorder;
@@ -131,6 +144,42 @@
 				F42B2BDC287ED40400776096 /* ProRecorderUITestsLaunchTests.swift */,
 			);
 			path = ProRecorderUITests;
+			sourceTree = "<group>";
+		};
+		F42B2BE9287ED5A200776096 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BBC287ED40200776096 /* ProjectsView.swift */,
+				F42B2BEF287EEDD200776096 /* CalendarView.swift */,
+				F42B2BF1287EEDE400776096 /* StatisticsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F42B2BEA287ED5B100776096 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BEB287ED5C700776096 /* ProjectViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F42B2BED287EECDD00776096 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BF3287F083800776096 /* TimerManager.swift */,
+				F43BCC5328842755007FB99B /* VCEventKit.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F42B2BEE287EECF300776096 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F42B2BC5287ED40400776096 /* ProRecorder.xcdatamodeld */,
+				F42B2BC3287ED40300776096 /* Persistence.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,9 +313,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				F42B2BC4287ED40300776096 /* Persistence.swift in Sources */,
-				F42B2BBD287ED40200776096 /* ContentView.swift in Sources */,
+				F42B2BF4287F083800776096 /* TimerManager.swift in Sources */,
+				F42B2BBD287ED40200776096 /* ProjectsView.swift in Sources */,
+				F42B2BF0287EEDD200776096 /* CalendarView.swift in Sources */,
+				F42B2BF2287EEDE400776096 /* StatisticsView.swift in Sources */,
 				F42B2BBB287ED40200776096 /* ProRecorderApp.swift in Sources */,
 				F42B2BC7287ED40400776096 /* ProRecorder.xcdatamodeld in Sources */,
+				F43BCC5428842755007FB99B /* VCEventKit.swift in Sources */,
+				F42B2BEC287ED5C700776096 /* ProjectViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +482,14 @@
 				DEVELOPMENT_TEAM = 587B4QS44A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProRecorder/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Allow to access to calendar";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Allow to access to reminder";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,11 +514,14 @@
 				DEVELOPMENT_TEAM = 587B4QS44A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ProRecorder/Info.plist;
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "Allow to access to calendar";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "Allow to access to reminder";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

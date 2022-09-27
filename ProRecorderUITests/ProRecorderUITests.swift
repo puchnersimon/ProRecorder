@@ -2,7 +2,7 @@
 //  ProRecorderUITests.swift
 //  ProRecorderUITests
 //
-//  Created by Simon Puchner on 13.07.22.
+//  Created by Simon Puchner on 30.06.22.
 //
 
 import XCTest
